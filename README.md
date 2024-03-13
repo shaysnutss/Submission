@@ -11,6 +11,8 @@
 
 ## **Steps:**
 
+0. Open docker, and ensure it is running
+
 1. Open your SQL workbench (or other software). And execute the command at `../account-service/src/main/resources/account.sql`.
 
 2. Clone this repository into your local machine. Your terminal should be at the `DXC_Submissions` directory.**
