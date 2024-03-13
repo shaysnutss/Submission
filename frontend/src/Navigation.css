@@ -1,0 +1,76 @@
+.nav {
+    background-color: #000;
+    /* Black background */
+    color: #fff;
+    /* White text */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-tab,
+.extra-tab {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-tab {
+    margin-left: auto;
+    /* Moves the navigation tab to the right side */
+}
+
+.navigation-tab>div,
+.extra-tab>div {
+    margin-left: 20px;
+    /* Spacing between navigation items */
+}
+
+.navigation-tab button,
+.extra-tab button {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Smooth transition for background and color changes */
+}
+
+.navigation-tab button:hover,
+.extra-tab button:hover {
+    background-color: #fff;
+    /* White background for hovered state */
+    color: #000;
+    /* Black text for hovered state */
+    border-radius: 20px;
+    /* Oval-shaped buttons on hover */
+}
+
+
+
+.logout {
+    display: flex;
+    align-items: center;
+}
+
+/* Optionally, style the Logo and Logout components if they accept className props or are styled elsewhere */
+.logo>div,
+.logout>div {
+    color: #fff;
+    /* Ensuring white text if these components render text */
+}
