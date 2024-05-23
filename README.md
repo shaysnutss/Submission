@@ -1,4 +1,4 @@
-# Hello! This is the read me to set up the project!
+# Project set up!
 
 **I have dockerized it so that there is minimal dependencies needed by the user.**
 
